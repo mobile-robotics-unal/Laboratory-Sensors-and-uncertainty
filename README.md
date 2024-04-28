@@ -5,10 +5,10 @@ Laboratory guide - Sensors and uncertainty (Fundamentos de Robótica móvil - 20
 ***Department of Mechanical and Mechatronics Engineering***
 
 Team 1:
-* _Juan Sebastián Dueñas_
+* _Daniel Esteban Molano_
 * _Camilo Esteban Zambrano_
-* _Daniel Esteban Molano_ 
 * _Cristhian David Sandoval_
+* _Juan Sebastián Dueñas_
 
 This repository contains the development of the "uncertainty and sensor laboratory", in which the team recognize the *performance* and characterisstics of each sensor.
 
