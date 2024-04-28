@@ -96,8 +96,9 @@ plot(t,dist)
 delete(port);
 clear port
 ```
+In the next figure, there is an example of the processed data.......
 <p align="center">
-  <img align="center" height="200" src="https://github.com/mobile-robotics-unal/Sensors-and-uncertainty/assets/161974694/ae1908d0-491c-4921-9dab-d32a32dd899e">
+  <img align="center" height="400" src="https://github.com/mobile-robotics-unal/Sensors-and-uncertainty/assets/161974694/ae1908d0-491c-4921-9dab-d32a32dd899e">
 <p/>
 
 
