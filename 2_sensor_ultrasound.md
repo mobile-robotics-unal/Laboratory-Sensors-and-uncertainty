@@ -62,7 +62,12 @@ void loop()
   delay(250);
 }
 ```
-Then, to obtain the experimental data for each distance between *1 to 2.5 m*, we run the *ultrasound3.m* file in *MATLAB R2024a*.
+Output in the serial monitor:
+<p align="center">
+  <img align="center" height="200" src="https://github.com/mobile-robotics-unal/Sensors-and-uncertainty/assets/161974694/78bee725-33b4-4578-ad09-988821918a82">
+<p/>
+  
+Then, to obtain the experimental data for each distance between *1 to 2.5 m*, we run the *ultrasound3.m* file in *MATLAB R2024a*. However, to avoid problems with the connection, is necessary modify the numper of the port in the *serialport()* command ando close *Arduino IDE*, otherwise *MATLAB* will show an error.
 ```matlab
 % ULTRASOUND3 programa para capturar datos por el puerto serial. Previo a
 % ejecutar el programa verifique mediante el Administrador de dispositivos
@@ -91,3 +96,8 @@ plot(t,dist)
 delete(port);
 clear port
 ```
+<p align="center">
+  <img align="center" height="200" src="https://github.com/mobile-robotics-unal/Sensors-and-uncertainty/assets/161974694/ae1908d0-491c-4921-9dab-d32a32dd899e">
+<p/>
+
+
