@@ -67,7 +67,7 @@ Output in the serial monitor:
 <p align="center">
   <img align="center" height="200" src="https://github.com/mobile-robotics-unal/Sensors-and-uncertainty/assets/161974694/78bee725-33b4-4578-ad09-988821918a82">
 <p/>
-  
+
 Then, to obtain the experimental data for each distance between *1 to 2.5 m*, we run the *ultrasound3.m* file in *MATLAB R2024a*. However, to avoid problems with the connection, is necessary modify the numper of the port in the *serialport()* command and close *Arduino IDE*, otherwise *MATLAB* will show an error.
 ```matlab
 % ULTRASOUND3 programa para capturar datos por el puerto serial. Previo a
@@ -99,10 +99,17 @@ clear port
 ```
 In the next figure, there is an example of the processed data for a distance of *5 cm*. 
 <p align="center">
-  <img align="center" height="400" src="https://github.com/mobile-robotics-unal/Sensors-and-uncertainty/assets/161974694/ae1908d0-491c-4921-9dab-d32a32dd899e">
+  <img align="center" height="200" src="https://github.com/mobile-robotics-unal/Sensors-and-uncertainty/assets/161974694/ae1908d0-491c-4921-9dab-d32a32dd899e">
+  <img align="center" height="200" src="https://github.com/mobile-robotics-unal/Sensors-and-uncertainty/assets/161974694/391b45c4-43d4-4867-8c34-0dcccd1861a9">
 <p/>
 
 # Toma de datos y procesamiento de datos.
 
 # Resultados.
 
+# References
+1. Ramírez, Ricardo and Cárdenas, Pedro. _Laboratorio 2 Evaluación de incertidumbre de un sensor_. Fundamentos de robótica móvil. Departamento de Ingeniería Mecánica y Mecatrónica. Universidad Nacional de Colombia. Bogotá, Colombia, 2024.
+2. Ramírez, Ricardo and Cárdenas, Pedro. _Sensores e incertidumbre_. Fundamentos de robótica móvil. Departamento de Ingeniería Mecánica y Mecatrónica. Universidad Nacional de Colombia. Bogotá, Colombia, 2024.
+3. https://howtomechatronics.com/tutorials/arduino/ultrasonic-sensor-hc-sr04/
+4. https://naylampmechatronics.com/blog/10_tutorial-de-arduino-y-sensor-ultrasonico-hc-sr04.html
+5. https://www.luisllamas.es/medir-distancia-con-arduino-y-sensor-de-ultrasonidos-hc-sr04/
