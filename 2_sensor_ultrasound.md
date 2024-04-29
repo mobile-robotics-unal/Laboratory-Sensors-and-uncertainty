@@ -1,3 +1,4 @@
+# Preparation
 After *verify* and *upload* the code into the *Arduino UNO*. It's necessary to be sure that the serial port in the *Device Manager* (Windows) correspond to the serial port associated to the Arduino Board. Then, we open *Arduino IDE* and *usound3.ino* file and verify that the pins associated in the code to the trigger and echo are the same as the *Arduino Board*. In the next picture, the reader could see the pin connection in the *Arduino UNO* board.
 
 <p align="center">
@@ -67,7 +68,7 @@ Output in the serial monitor:
   <img align="center" height="200" src="https://github.com/mobile-robotics-unal/Sensors-and-uncertainty/assets/161974694/78bee725-33b4-4578-ad09-988821918a82">
 <p/>
   
-Then, to obtain the experimental data for each distance between *1 to 2.5 m*, we run the *ultrasound3.m* file in *MATLAB R2024a*. However, to avoid problems with the connection, is necessary modify the numper of the port in the *serialport()* command ando close *Arduino IDE*, otherwise *MATLAB* will show an error.
+Then, to obtain the experimental data for each distance between *1 to 2.5 m*, we run the *ultrasound3.m* file in *MATLAB R2024a*. However, to avoid problems with the connection, is necessary modify the numper of the port in the *serialport()* command and close *Arduino IDE*, otherwise *MATLAB* will show an error.
 ```matlab
 % ULTRASOUND3 programa para capturar datos por el puerto serial. Previo a
 % ejecutar el programa verifique mediante el Administrador de dispositivos
@@ -96,9 +97,12 @@ plot(t,dist)
 delete(port);
 clear port
 ```
-In the next figure, there is an example of the processed data.......
+In the next figure, there is an example of the processed data for a distance of *5 cm*. 
 <p align="center">
   <img align="center" height="400" src="https://github.com/mobile-robotics-unal/Sensors-and-uncertainty/assets/161974694/ae1908d0-491c-4921-9dab-d32a32dd899e">
 <p/>
 
+# Toma de datos y procesamiento de datos.
+
+# Resultados.
 
