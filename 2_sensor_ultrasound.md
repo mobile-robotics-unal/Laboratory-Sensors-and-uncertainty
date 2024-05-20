@@ -1,11 +1,11 @@
-# Preparación
-Antes de verificar y cargar el código en la tarjeta *Arduino UNO*. Es necesario estar seguros que el puerto serial (*serial port*) en el administrador de dispositivos (en el caso de *Windows*) corresponde al puerto serial asociado a la tarjeta *Arduino*. Posteriormente, se abre *Arduino IDE* y el archivo *usound3.ino* y se verifican los pines del *trigger* y el *echo* correspondan a los mismos de la tarjeta *Arduino*. En la siguiente figura, el lector puede ver la conexión de cada uno de los pines en la tarjeta *Arduino UNO*.
+# Preparation
+After *verify* and *upload* the code into the *Arduino UNO*. It's necessary to be sure that the serial port in the *Device Manager* (Windows) correspond to the serial port associated to the Arduino Board. Then, we open *Arduino IDE* and *usound3.ino* file and verify that the pins associated in the code to the trigger and echo are the same as the *Arduino Board*. In the next picture, the reader could see the pin connection in the *Arduino UNO* board.
 
 <p align="center">
   <img align="center" height="200" src="https://github.com/mobile-robotics-unal/Sensors-and-uncertainty/assets/161974694/8d69556e-cf93-4ae9-81aa-564f9e70dbac">
 <p/>
 
-Empleando el siguiente código desarrollado por los profesores Dr.Ing. Ricardo Ramírez y PhD. Ing. Pedro Cárdenas, verificamos y cargamos el código en la tarjeta. Como una verificación de funcionamiento del código, se puede abrir el *serial monitor* y se pueden observar los valores de lectura de distancia en centímetros *(cm)* 
+Using the next code developed by Dr.Ing. Ricardo Ramirez and PhD. Ing. Cárdenas, we verify and upload the code to the board. As a verification of performance of the code, we open the *serial monitor* and we could see the distance values in centimeters.
 ```c++
 // declaración de variables para pines
 const int pinecho = 11;
@@ -63,12 +63,12 @@ void loop()
   delay(250);
 }
 ```
-Salida en el *serial monitor* de *Arduino IDE*:
+Output in the serial monitor:
 <p align="center">
   <img align="center" height="200" src="https://github.com/mobile-robotics-unal/Sensors-and-uncertainty/assets/161974694/78bee725-33b4-4578-ad09-988821918a82">
 <p/>
 
-Ahora, para obtener los datos experimentales para las 3 distancias seleccionadas entre * 1 a 2.5 m*, se ejecuta el código *ultrasound3.m* en *MATLAB R2024a*. Sin embargo, para evitar problemas de conexión, es necesario modificar el número del puerto en el comando *serialport()* y cerrar *Arduino IDE*, de lo contrario *MARLAB* arrojará un error.
+Then, to obtain the experimental data for each distance between *1 to 2.5 m*, we run the *ultrasound3.m* file in *MATLAB R2024a*. However, to avoid problems with the connection, is necessary modify the numper of the port in the *serialport()* command and close *Arduino IDE*, otherwise *MATLAB* will show an error.
 ```matlab
 % ULTRASOUND3 programa para capturar datos por el puerto serial. Previo a
 % ejecutar el programa verifique mediante el Administrador de dispositivos
@@ -97,7 +97,7 @@ plot(t,dist)
 delete(port);
 clear port
 ```
-En la siguiente figura, se muestra un ejemplo de los datos procesados para una distancia de *5 cm*.
+In the next figure, there is an example of the processed data for a distance of *5 cm*. 
 <p align="center">
   <img align="center" height="200" src="https://github.com/mobile-robotics-unal/Sensors-and-uncertainty/assets/161974694/ae1908d0-491c-4921-9dab-d32a32dd899e">
   <img align="center" height="200" src="https://github.com/mobile-robotics-unal/Sensors-and-uncertainty/assets/161974694/391b45c4-43d4-4867-8c34-0dcccd1861a9">
@@ -107,7 +107,7 @@ En la siguiente figura, se muestra un ejemplo de los datos procesados para una d
 
 # Resultados.
 
-# Referencias.
+# References
 1. Ramírez, Ricardo and Cárdenas, Pedro. _Laboratorio 2 Evaluación de incertidumbre de un sensor_. Fundamentos de robótica móvil. Departamento de Ingeniería Mecánica y Mecatrónica. Universidad Nacional de Colombia. Bogotá, Colombia, 2024.
 2. Ramírez, Ricardo and Cárdenas, Pedro. _Sensores e incertidumbre_. Fundamentos de robótica móvil. Departamento de Ingeniería Mecánica y Mecatrónica. Universidad Nacional de Colombia. Bogotá, Colombia, 2024.
 3. https://howtomechatronics.com/tutorials/arduino/ultrasonic-sensor-hc-sr04/
