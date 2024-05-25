@@ -102,6 +102,7 @@ En la siguiente figura, se puede observar como ejemplo el procesamiento inicial 
   <img align="center" height="200" src="https://github.com/mobile-robotics-unal/Sensors-and-uncertainty/assets/161974694/ae1908d0-491c-4921-9dab-d32a32dd899e">
   <img align="center" height="200" src="https://github.com/mobile-robotics-unal/Sensors-and-uncertainty/assets/161974694/391b45c4-43d4-4867-8c34-0dcccd1861a9">
 <p/>
+  
 # Resultados.
 
 # Referencias.
