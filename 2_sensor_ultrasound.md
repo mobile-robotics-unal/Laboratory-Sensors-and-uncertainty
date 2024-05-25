@@ -1,4 +1,4 @@
-# Preparation
+# Preparación
 Después de *verificar* y *cargar* el código en el *Arduino UNO*. Es necesario asegurarse que el *serial port* en el *Administrador de Dispositivos* (Windows) corresponda al *serial port* asociado a la placa Arduino. Luego, abrimos *Arduino IDE* y el archivo *usound3.ino* y verificamos que los pines asociados en el código al disparador y al eco sean los mismos que los de la *Placa Arduino*. En la siguiente imagen, el lector puede ver la conexión de pines en la placa *Arduino UNO*.
 
 <p align="center">
@@ -63,12 +63,11 @@ void loop()
   delay(250);
 }
 ```
-Output in the serial monitor:
+Salida en el *serial monitor*:
 <p align="center">
   <img align="center" height="200" src="https://github.com/mobile-robotics-unal/Sensors-and-uncertainty/assets/161974694/78bee725-33b4-4578-ad09-988821918a82">
 <p/>
 
-Then, to obtain the experimental data for each distance between *1 to 2.5 m*, we run the *ultrasound3.m* file in *MATLAB R2024a*. However, to avoid problems with the connection, is necessary modify the numper of the port in the *serialport()* command and close *Arduino IDE*, otherwise *MATLAB* will show an error.
 Posteriormente, para poder obbtener los datos experimentales de un conjunto de 100 mediciones para distancias entre *1 a 2.5 m*, corremos el programa *ultrasound3.m* file in *MATLAB R2024a*. Sin embargo, para evitar problemas con la conexión, es neccesario modificar el número del *serialport()* command and close *Arduino IDE*, de lo contrario *MATLAB* arrojará un error.
 ```matlab
 % ULTRASOUND3 programa para capturar datos por el puerto serial. Previo a
@@ -98,14 +97,14 @@ plot(t,dist)
 delete(port);
 clear port
 ```
-In the next figure, there is an example of the processed data for a distance of *5 cm*. 
+En la siguiente figura, se puede observar como ejemplo el procesamiento inicial paras la lectura de un conjunto de 100 datos para una distancia de *5 cm*.
 <p align="center">
   <img align="center" height="200" src="https://github.com/mobile-robotics-unal/Sensors-and-uncertainty/assets/161974694/ae1908d0-491c-4921-9dab-d32a32dd899e">
   <img align="center" height="200" src="https://github.com/mobile-robotics-unal/Sensors-and-uncertainty/assets/161974694/391b45c4-43d4-4867-8c34-0dcccd1861a9">
 <p/>
 # Resultados.
 
-# References
+# Referencias.
 1. Ramírez, Ricardo and Cárdenas, Pedro. _Laboratorio 2 Evaluación de incertidumbre de un sensor_. Fundamentos de robótica móvil. Departamento de Ingeniería Mecánica y Mecatrónica. Universidad Nacional de Colombia. Bogotá, Colombia, 2024.
 2. Ramírez, Ricardo and Cárdenas, Pedro. _Sensores e incertidumbre_. Fundamentos de robótica móvil. Departamento de Ingeniería Mecánica y Mecatrónica. Universidad Nacional de Colombia. Bogotá, Colombia, 2024.
 3. https://howtomechatronics.com/tutorials/arduino/ultrasonic-sensor-hc-sr04/
