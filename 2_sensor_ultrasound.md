@@ -1,11 +1,11 @@
 # Preparation
-After *verify* and *upload* the code into the *Arduino UNO*. It's necessary to be sure that the serial port in the *Device Manager* (Windows) correspond to the serial port associated to the Arduino Board. Then, we open *Arduino IDE* and *usound3.ino* file and verify that the pins associated in the code to the trigger and echo are the same as the *Arduino Board*. In the next picture, the reader could see the pin connection in the *Arduino UNO* board.
+Después de *verificar* y *cargar* el código en el *Arduino UNO*. Es necesario asegurarse que el *serial port* en el *Administrador de Dispositivos* (Windows) corresponda al *serial port* asociado a la placa Arduino. Luego, abrimos *Arduino IDE* y el archivo *usound3.ino* y verificamos que los pines asociados en el código al disparador y al eco sean los mismos que los de la *Placa Arduino*. En la siguiente imagen, el lector puede ver la conexión de pines en la placa *Arduino UNO*.
 
 <p align="center">
   <img align="center" height="200" src="https://github.com/mobile-robotics-unal/Sensors-and-uncertainty/assets/161974694/8d69556e-cf93-4ae9-81aa-564f9e70dbac">
 <p/>
 
-Using the next code developed by Dr.Ing. Ricardo Ramirez and PhD. Ing. Cárdenas, we verify and upload the code to the board. As a verification of performance of the code, we open the *serial monitor* and we could see the distance values in centimeters.
+Usando el siguiente código desarrollado por los profesores *Dr.Ing. Ricardo Ramírez* y *PhD. Ing. Pedro Cárdenas*, verificamos y subimos el código a la placa Arduino. Como una verificación del rendimiento del código, se abre el *serial monitor* en *ARduino IDE* y podemos verificar en la lectura de los valores de distancia en centímetros.
 ```c++
 // declaración de variables para pines
 const int pinecho = 11;
@@ -69,6 +69,7 @@ Output in the serial monitor:
 <p/>
 
 Then, to obtain the experimental data for each distance between *1 to 2.5 m*, we run the *ultrasound3.m* file in *MATLAB R2024a*. However, to avoid problems with the connection, is necessary modify the numper of the port in the *serialport()* command and close *Arduino IDE*, otherwise *MATLAB* will show an error.
+Posteriormente, para poder obbtener los datos experimentales de un conjunto de 100 mediciones para distancias entre *1 a 2.5 m*, corremos el programa *ultrasound3.m* file in *MATLAB R2024a*. Sin embargo, para evitar problemas con la conexión, es neccesario modificar el número del *serialport()* command and close *Arduino IDE*, de lo contrario *MATLAB* arrojará un error.
 ```matlab
 % ULTRASOUND3 programa para capturar datos por el puerto serial. Previo a
 % ejecutar el programa verifique mediante el Administrador de dispositivos
@@ -102,9 +103,6 @@ In the next figure, there is an example of the processed data for a distance of 
   <img align="center" height="200" src="https://github.com/mobile-robotics-unal/Sensors-and-uncertainty/assets/161974694/ae1908d0-491c-4921-9dab-d32a32dd899e">
   <img align="center" height="200" src="https://github.com/mobile-robotics-unal/Sensors-and-uncertainty/assets/161974694/391b45c4-43d4-4867-8c34-0dcccd1861a9">
 <p/>
-
-# Toma de datos y procesamiento de datos.
-
 # Resultados.
 
 # References
