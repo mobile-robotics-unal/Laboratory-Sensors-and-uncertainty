@@ -17,7 +17,7 @@ A continuación se muestra el panel de lectura de los datos de cada motor así c
 
 En el siguiente video, se muestra el resultado al ejecutar la anterior rutina para el $30\%$ de la velocidad angular nominal del EV3.
 
-
+https://github.com/mobile-robotics-unal/Laboratory-Sensors-and-uncertainty/blob/main/EV3/EV3_desp_lin.mp4
 
 # Giro ruedas en intervalos de 30° y 45°.
 
