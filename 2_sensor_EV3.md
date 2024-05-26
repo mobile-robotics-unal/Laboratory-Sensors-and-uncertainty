@@ -15,10 +15,24 @@ A continuación se muestra el panel de lectura de los datos de cada motor así c
 
 ![desp_30_100_1](https://github.com/mobile-robotics-unal/Laboratory-Sensors-and-uncertainty/assets/161974694/8de180a8-7257-4d33-8bc8-59b369e0646b)
 
-En el siguiente video, se muestra el resultado al ejecutar la anterior rutina para el $30\%$ de la velocidad angular nominal del EV3.
+## Toma de datos.
+Posterior al montaje experimental, se toman los siguientes datos en la posición inicial y final:
+* Distancia inicial y final del EV3 (cinta métrica).
+* Lecturas de distancia obtenidas por el sensor de ultrasonido.
+* Lectura de desplazamiento angular de los enconder de cada motor.
+  
+Los valores de incertidumbre de cada elemento son:
+* Cinta métrica: $\pm1mm$
+* Sensor de ultrasonido: $\pm1mm$
+* Encoder: $\pm 1^\circ$
 
-https://github.com/mobile-robotics-unal/Laboratory-Sensors-and-uncertainty/blob/main/EV3/EV3_desp_lin.mp4
+*Tabla 1*: Datos de distancia recorrida experimentalmente, para una distancia ideal de $100cm$ a un $30\%$ de la velocidad nominal de los motores.
+
+![desp_30_100_tabla](https://github.com/mobile-robotics-unal/Laboratory-Sensors-and-uncertainty/assets/161974694/cb564b9b-1d89-48b1-8c34-3da174972966)
+
+*Tabla 2*: Datos de distancia recorrida experimentalmente, para una distancia ideal de $100cm$ a un $100\%$ de la velocidad nominal de los motores.
 
 # Giro ruedas en intervalos de 30° y 45°.
 
+## Análisis de datos.
 
