@@ -105,6 +105,51 @@ En la siguiente figura, se puede observar como ejemplo el procesamiento inicial 
   
 # Resultados.
 
+Para el experimento se utilizaron 4 distancias: 40cm, 100cm, 120cm, 180cm. 
+
+## Mediciones
+Para cada distancia se realizaron 100 mediciones donde se obtuvieron los siguientes resultados.
+
+### 40cm
+![alt text](.\figures\ultrasound\DistancevsSample40.png)
+
+### 100cm
+![alt text](.\figures\ultrasound\DistancevsSample100.png)
+
+### 120cm
+![alt text](.\figures\ultrasound\DistancevsSample120.png)
+
+### 140cm
+![alt text](.\figures\ultrasound\DistancevsSample180.png)
+
+## Histogramas
+Con el proposito de ver la función de probabilidad de los resultados captados por el ultrasonido, se realizaron los siguientes histogramas:
+
+### 40cm
+![alt text](.\figures\ultrasound\hist40.png)
+
+### 100cm
+![alt text](.\figures\ultrasound\hist100.png)
+
+### 120cm
+![alt text](.\figures\ultrasound\hist120.png)
+
+### 140cm
+![alt text](.\figures\ultrasound\hist180.png)
+
+## Error Absoluto
+![alt text](.\figures\ultrasound\absoluteErrors.png)
+
+## Error Relativo
+![alt text](.\figures\ultrasound\relativeErrors.png)
+
+
+## Análisis de resultados
+* Se observa que el error promedio aumenta en relación con la distancia medida.
+* A pesar de que el error absoluto aumenta, el error relativo se manteiene en valores pequeños, por lo que este sensor es ideal cuando no se necesita un alto grado de precisión.
+* Dado que es un sensor digital, se observa que a lo largo de las 100 mediciones, siempre existe una distribución especifica de valores.
+
+
 # Referencias.
 1. Ramírez, Ricardo and Cárdenas, Pedro. _Laboratorio 2 Evaluación de incertidumbre de un sensor_. Fundamentos de robótica móvil. Departamento de Ingeniería Mecánica y Mecatrónica. Universidad Nacional de Colombia. Bogotá, Colombia, 2024.
 2. Ramírez, Ricardo and Cárdenas, Pedro. _Sensores e incertidumbre_. Fundamentos de robótica móvil. Departamento de Ingeniería Mecánica y Mecatrónica. Universidad Nacional de Colombia. Bogotá, Colombia, 2024.
