@@ -154,6 +154,8 @@ De manera similar el *Error relativo* sirve como un mejor indicativo, puesto que
 
 *Tabla 2*: Datos de distancia recorrida experimentalmente, para una distancia ideal de $100cm$ a un $100\%$ de la velocidad nominal de los motores.
 
+![desp_30_100_tabla](https://github.com/mobile-robotics-unal/Laboratory-Sensors-and-uncertainty/assets/161974694/7f08964f-a02e-453d-9344-3c77a7324223)
+
 # Giro ruedas en intervalos de 30° y 45°.
 ## Toma de datos y análisis.
 
