@@ -1,5 +1,5 @@
-# Sensors-and-uncertainty
-Laboratory: Sensors and uncertainty (Fundamentos de Robótica móvil - 2024 1S).
+# Sensores e incertidumbre
+Laboratorio: Sensores e incertidumbre (Fundamentos de Robótica móvil - 2024 1S).
 
 ***Universidad Nacional de Colombia***
 ***Departamento de Ingeniería Mecánica y Mecatrónica***
@@ -10,7 +10,7 @@ Equipo 1:
 * _Cristhian David Sandoval_
 * _Juan Sebastián Dueñas_
 
-This repository coints the development of the sensors and uncertainty guide. Please click in the following links to read the analysis and results for each sensor.
+De click en los siguientes enlaces para poder leer sobre la identificación de características de cada sensor y desarrollos experimentales.
 
 ### 1. [Ultrasound sensor Hc-SR04](2_sensor_ultrasound.md)
 ### 2. [LIDAR](2_sensor_lidar.md)
