@@ -196,9 +196,9 @@ Para la toma de datos se realizaron mediciones tomando intervalos de 30° y 45°
 
 
 #### Tabla de resultados:
-![alt text](.\figures\encoders\30_table.png)
+![30_table](https://github.com/mobile-robotics-unal/Laboratory-Sensors-and-uncertainty/blob/main/figures/encoders/30_table.png)
 #### Gráfico de error absoluto:
-![alt text](.\figures\encoders\30_graph.png)
+![30_graph](https://github.com/mobile-robotics-unal/Laboratory-Sensors-and-uncertainty/blob/main/figures/encoders/30_graph.png)
 
 ### Intervalos de 45°
 
@@ -223,9 +223,9 @@ Para la toma de datos se realizaron mediciones tomando intervalos de 30° y 45°
 
 
 #### Tabla de resultados:
-![alt text](.\figures\encoders\45_table.png)
+![45_table](https://github.com/mobile-robotics-unal/Laboratory-Sensors-and-uncertainty/blob/main/figures/encoders/45_table.png)
 #### Gráfico de error absoluto:
-![alt text](.\figures\encoders\45_graph.png)
+![45_graph](https://github.com/mobile-robotics-unal/Laboratory-Sensors-and-uncertainty/blob/main/figures/encoders/45_graph.png)
 
 ### Análisis
 
