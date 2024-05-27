@@ -157,35 +157,71 @@ De manera similar el *Error relativo* sirve como un mejor indicativo, puesto que
 # Giro ruedas en intervalos de 30° y 45°.
 ## Toma de datos y análisis.
 
-### Intervalos de 30°.
+Para la toma de datos se realizaron mediciones tomando intervalos de 30° y 45°. Posteriormente, usando el software Tracker, se midieron los ángulos de la posición de las ruedas sobre las imagenes tomadas.
+
+### Intervalos de 30°
 
 ![giro30_0](https://github.com/mobile-robotics-unal/Laboratory-Sensors-and-uncertainty/assets/161974694/45ee66d8-251c-46ce-9fd8-f516189cfd0a)
+
 ![giro30_30](https://github.com/mobile-robotics-unal/Laboratory-Sensors-and-uncertainty/assets/161974694/7d33da63-36c7-4d78-a762-1beaa63ce3d6)
+
 ![giro30_60](https://github.com/mobile-robotics-unal/Laboratory-Sensors-and-uncertainty/assets/161974694/6e76dbc8-9f18-459d-a474-bfadd9a96e94)
+
 ![giro30_90](https://github.com/mobile-robotics-unal/Laboratory-Sensors-and-uncertainty/assets/161974694/e315c5cd-ebcc-47f5-93e2-71b0a03a09a7)
+
 ![giro30_120](https://github.com/mobile-robotics-unal/Laboratory-Sensors-and-uncertainty/assets/161974694/132e90a9-3142-456a-b7cf-dc068634e15b)
+
 ![giro30_150](https://github.com/mobile-robotics-unal/Laboratory-Sensors-and-uncertainty/assets/161974694/c2517e68-7f91-4f67-af95-f45cc03a57e3)
+
 ![giro30_180](https://github.com/mobile-robotics-unal/Laboratory-Sensors-and-uncertainty/assets/161974694/3777c9ef-8b68-4b6e-b320-6dcb0d86ca99)
+
 ![giro30_210](https://github.com/mobile-robotics-unal/Laboratory-Sensors-and-uncertainty/assets/161974694/ff01a6ba-fcc4-4a09-af8f-51c47c2fbb81)
+
 ![giro30_240](https://github.com/mobile-robotics-unal/Laboratory-Sensors-and-uncertainty/assets/161974694/5010383c-22d4-4854-a5b0-153b5a560c83)
+
 ![giro30_270](https://github.com/mobile-robotics-unal/Laboratory-Sensors-and-uncertainty/assets/161974694/66bbfc99-3b7e-466f-a388-18f60b0b9497)
+
 ![giro30_300](https://github.com/mobile-robotics-unal/Laboratory-Sensors-and-uncertainty/assets/161974694/9c319fde-5df4-4463-a212-0a2cea787aa1)
+
 ![giro30_330](https://github.com/mobile-robotics-unal/Laboratory-Sensors-and-uncertainty/assets/161974694/7cdd3c27-226b-4631-9cc2-ae072c4bfa25)
+
 ![giro30_360](https://github.com/mobile-robotics-unal/Laboratory-Sensors-and-uncertainty/assets/161974694/92d2fe36-cba6-4603-ab16-381f4eb43d8c)
 
-### Intervalos de 45°.
+
+#### Tabla de resultados:
+![alt text](.\figures\encoders\30_table.png)
+#### Gráfico de error absoluto:
+![alt text](.\figures\encoders\30_graph.png)
+
+### Intervalos de 45°
 
 
 ![giro45_0](https://github.com/mobile-robotics-unal/Laboratory-Sensors-and-uncertainty/assets/161974694/341892fc-ced5-450d-a36a-9222cc001802)
+
 ![giro45_45](https://github.com/mobile-robotics-unal/Laboratory-Sensors-and-uncertainty/assets/161974694/723db4f5-abf5-4091-ac54-9e5cf088ec51)
+
 ![giro45_90](https://github.com/mobile-robotics-unal/Laboratory-Sensors-and-uncertainty/assets/161974694/4a2452dc-aae7-4b63-bc69-7b37c5d0649c)
+
 ![giro45_135](https://github.com/mobile-robotics-unal/Laboratory-Sensors-and-uncertainty/assets/161974694/e8c7fd8c-d3bf-4bee-ad5d-e6f66e1ca2a2)
+
 ![giro45_180](https://github.com/mobile-robotics-unal/Laboratory-Sensors-and-uncertainty/assets/161974694/e3b6a8df-f182-4a8e-8d3f-67b900015cae)
+
 ![giro45_225](https://github.com/mobile-robotics-unal/Laboratory-Sensors-and-uncertainty/assets/161974694/b41674c5-05f8-45cc-b388-b5e91fb5b246)
+
 ![giro45_270](https://github.com/mobile-robotics-unal/Laboratory-Sensors-and-uncertainty/assets/161974694/251dfa62-f8b0-4c77-b702-643f8ba12e44)
+
 ![giro45_315](https://github.com/mobile-robotics-unal/Laboratory-Sensors-and-uncertainty/assets/161974694/a0f32dbb-0256-4090-8cff-c2977affb60b)
+
 ![giro45_360](https://github.com/mobile-robotics-unal/Laboratory-Sensors-and-uncertainty/assets/161974694/9503cc08-6fba-4e9a-a1e2-6886cd673eea)
 
-## Análisis de datos.
 
+#### Tabla de resultados:
+![alt text](.\figures\encoders\45_table.png)
+#### Gráfico de error absoluto:
+![alt text](.\figures\encoders\45_graph.png)
 
+### Análisis
+
+* Se observa que el error incremente a medida que se acerca a los 180°, posteriormente decae al volver a la posición inicial. 
+* Los encoders del EV3 han llegado a tener errores de 9.1°.
+* El error de los encoders aumenta considerablemente al hacer rotaciones mas largas, con 30° se tuvo un promedio de 3.075° de error, mientras que con 45° el error promedio fue de 6.25°, siendo más del doble de error con una diferencia de 15° por intervalo.
